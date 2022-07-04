@@ -5,3 +5,89 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    width: 100vw;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.aside{
+    width: 20%;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.blu{
+    background-color: blueviolet;
+    width: 200px;
+    height: 50px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    height: 100px;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav > div > button{
+    margin: 50px;
+    background-color: grey;
+    padding: 15px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenuto{
+    width: 50%;
+    height: 300px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+}
+.contenuto > button{
+    margin: 50px;
+    width: 200px;
+    background-color: grey;
+    padding: 15px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+}
+.contenuto > input:not(button){
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.4rem;
+}
+.pallino{
+    display: flex;
+    margin-right:  20px;
+    
+}
+.pallino > img{
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
